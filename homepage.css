@@ -1,38 +1,64 @@
-body{
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+#container{
+    margin:0 auto;
     width:1200px;
     height:auto;
 }
 
-
-
-
-
-h1{
-    text-align: center;
-    color:black;
+a{
     text-decoration: none;
+}
+
+header{
+    width:1200px;
+    height:100px;
+    background-color: rgb(25, 66, 82);
+    float:left;
+  
+}
+
+#logo{
+    width:300px;
+    height:100px;
     position:relative;
 }
 
-div ul{
-    list-style-type:none;
+#logo h1{
+    color:black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
 }
 
-#navi li{
+#navi{
+    width:50px;
+    background-color: rgb(135, 235, 140);
+    color:teal;
+    float:right;
+    position:absolute;
+    left:1200px;    
+    top:55px;
+}
+
+#navi>li{
+    display:inline-block;
     width:50px;
     height:20px;
-    display:inline-block;
-    background-color: skyblue;
-    color:teal;
-    position:
-
 }
 
+/* 본문 */
+
 #mainprof li{
-    width: 500px;
-    height:500px;   
-    background-color:rgb(102, 97, 97);
+    width: 600px;
+    height:400px;   
+    background-color:rgb(194, 204, 211);
     display:inline-block;
     float:left;
 
-}
+} 
